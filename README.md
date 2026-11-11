@@ -7,7 +7,8 @@ parameters of a two-stage biodiesel transesterification process: a supervised
 process variables.
 
 Code and data for the paper *"A Hybrid LSTM-DDPG Framework for
-Operating-Parameter Optimisation of a Two-Stage Transesterification Process."*
+Operating-Parameter Optimisation of a Two-Stage Transesterification Process."* published at "2026 Ninth International Conference on Vocational Education and Electrical Engineering (ICVEE)"
+
 
 ---
 
@@ -176,17 +177,16 @@ deterministic rollouts with exploration noise disabled.
 ## Citation
 
 ```bibtex
-@inproceedings{butarbutar2026hybrid,
-  title     = {A Hybrid {LSTM-DDPG} Framework for Operating-Parameter
-               Optimisation of a Two-Stage Transesterification Process},
-  author    = {Butarbutar, Chardinal Martin and
-               Widada, Bartolomeus Priya Perkasa Utama and
-               Putra, Cendra Devayana and
-               Putri, Berliana Devianti and
-               Taipabu, Ikhsan},
-  booktitle = {TBA},
-  year      = {2026}
-}
+@INPROCEEDINGS{11766552,
+  author={Butarbutar, Chardinal Martin and Putra, Cendra Devayana and Taipabu, Muhammad Ikhsan and Widada, Bartolomeus P. Perkasa Utama and Putri, Berliana Devianti},
+  booktitle={2026 Ninth International Conference on Vocational Education and Electrical Engineering (ICVEE)}, 
+  title={Hybrid LSTM-DDPG Framework for Operating-Parameter Optimisation of a Two-Stage Transesterification Process}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={180-186},
+  keywords={Optimization;Long short term memory;Modeling;Training;Testing;Timing;Printing;Biodiesel;Reinforcement learning;Lubricating oils;supervised reinforcement learning;LSTM;DDPG;Bayesian optimization;transesterification;biodiesel;process optimization;feedstock drift Introduction},
+  doi={10.1109/ICVEE71133.2026.11766552}}
 ```
 
 The hybrid warm-start architecture is adapted from Fu, Yu and Li, *Multi-Feature
