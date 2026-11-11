@@ -124,7 +124,12 @@ there is no leakage. The same split is used by all three methods.
 | Reaction time, stage 2 | 0.5 | 1.5 | 6 | h |
 | Conversion (target) | 81.95 | 99.58 | ~21k | % |
 
-Dataset card and download: https://huggingface.co/datasets/CendraCendra/TSTOP_Dataset 
+The raw `Dataset.csv` also contains 8,475 completely empty rows (29,476 lines in total); drop them on load with `pd.read_csv("Dataset.csv").dropna(how="all")` to obtain the 21,001 records.
+
+Dataset card and download:
+
+- Hugging Face: https://huggingface.co/datasets/CendraCendra/TSTOP_Dataset
+- Kaggle: https://www.kaggle.com/datasets/cendradevayanaputra/tstop-dataset
 
 ## Installation
 
